@@ -8,6 +8,11 @@ namespace ConsoleAppMedicineService
 {
     public abstract class BaseEntity
     {
-        public int Id { get; protected set; }
+        private static int _id;
+        public int Id { get;  set; }
+        //public BaseEntity()
+        //{
+        //    Id = ++_id;
+        //}
     }
 }

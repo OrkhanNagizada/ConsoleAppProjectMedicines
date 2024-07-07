@@ -1,12 +1,13 @@
 ﻿using ConsoleAppMedicineService.Exceptions;
 using ConsoleAppMedicineService.Services;
 using ConsoleAppMedicineService;
+using ConsoleAppMedicineService.Models;
 
 var userService = new UserService();
 var user1 = new User { Fullname = "Nagizade Orxan", Email = "Orxan93@gmail.com", Password = "Orxan123@" };
 var user2 = new User { Fullname = "Asimian Asiman", Email = "Asiman05@gmail.com", Password = "Asiman123@" };
-var user3= new User { Fullname = "Musa Muradli", Email = "Musa07@gmail.com", Password = "Musa123@" };
-var user4= new User { Fullname = "Aqil Aqil", Email = "Aqil09@gmail.com", Password = "Aqil123@" };
+var user3 = new User { Fullname = "Musa Muradli", Email = "Musa07@gmail.com", Password = "Musa123@" };
+var user4 = new User { Fullname = "Aqil Aqil", Email = "Aqil09@gmail.com", Password = "Aqil123@" };
 userService.AddUser(user1);
 userService.AddUser(user2);
 userService.AddUser(user3);
@@ -24,7 +25,8 @@ while (true)
     Console.WriteLine("5. Find medicines by category");
     Console.WriteLine("6. Remove  medicine");
     Console.WriteLine("7. Update  medicine");
-    Console.WriteLine("8. Exit");
+    Console.WriteLine("8. Create  category");
+    Console.WriteLine("9. Exit");
 
     Console.Write("\nEnter your choice: ");
     int choice;
@@ -37,7 +39,7 @@ while (true)
     switch (choice)
     {
         case 1:
-           
+
             Console.WriteLine("Enter medicine :");
             Console.Write("Name: ");
             string name = Console.ReadLine();
@@ -64,7 +66,7 @@ while (true)
             }
             break;
         case 2:
-           
+
             var allMedicines = medicineService.GetAllMedicines();
             Console.WriteLine("\nAll Medicines:");
             foreach (var medicine in allMedicines)
@@ -73,7 +75,7 @@ while (true)
             }
             break;
         case 3:
-            
+
             Console.Write("Enter medicine ID: ");
             if (!int.TryParse(Console.ReadLine(), out int id))
             {
@@ -91,18 +93,18 @@ while (true)
             }
             break;
         case 4:
-         
+
             Console.Write("Enter medicine name: ");
             string searchName = Console.ReadLine();
             var medicinesByName = medicineService.GetMedicineByName(searchName);
             Console.WriteLine($"\nMedicines by name '{searchName}':");
-            foreach (var medicine in medicinesByName)
-            {
-                Console.WriteLine($"ID: {medicine.Id}, Name: {medicine.Name}, Category ID: {medicine.CategoryId}");
-            }
+
+
+            Console.WriteLine($"ID: {medicinesByName.Id}, Name: {medicinesByName.Name}, Category ID: {medicinesByName.CategoryId}");
+
             break;
         case 5:
-          
+
             Console.Write("Enter category ID: ");
             if (!int.TryParse(Console.ReadLine(), out int searchCategoryId))
             {
@@ -117,7 +119,7 @@ while (true)
             }
             break;
         case 6:
-           
+
             Console.Write("Enter medicine ID  remove: ");
             if (!int.TryParse(Console.ReadLine(), out int removeId))
             {
@@ -135,7 +137,7 @@ while (true)
             }
             break;
         case 7:
-            
+
             Console.Write("Enter medicine ID to update: ");
             if (!int.TryParse(Console.ReadLine(), out int updateId))
             {
@@ -154,7 +156,7 @@ while (true)
             }
             Medicine updatedMedicine = new Medicine
             {
-                //Id = updateId,
+                Id = updateId,
                 Name = updatedName,
                 CategoryId = updatedCategoryId
             };
@@ -168,17 +170,30 @@ while (true)
                 Console.WriteLine(ex.Message);
             }
             break;
-        case 8:
+       
             
+           
+        case 9:
+
             Console.WriteLine("Exit");
             Environment.Exit(0);
             break;
-        default:
-            Console.WriteLine("Invalid choice. Please enter number  menu.");
+        case 8:
+            Console.WriteLine("Create Category :");
+            Category category = new() {
+                Name = Console.ReadLine()
+            };
+            CategoryService categoryService = new CategoryService();
+            categoryService.CreateCategory(category);
             break;
+        default:
+            break;
+       
+
+
     }
 }
-      
+
 
 while (true)
 {
@@ -188,13 +203,13 @@ while (true)
     Console.WriteLine("Please enter your password:");
     string password = Console.ReadLine();
 
-   
+
     try
     {
         var loggedInUser = userService.Login(email, password);
         Console.WriteLine($"Logged : {loggedInUser.Fullname}");
 
-       
+
     }
     catch (NotFoundException ex)
     {

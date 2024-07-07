@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleAppMedicineService.Models;
 
 namespace ConsoleAppMedicineService.Services
 {
@@ -10,7 +11,14 @@ namespace ConsoleAppMedicineService.Services
     {
         public void CreateCategory(Category category)
         {
-            DB.categories.Add(category);
+            Array.Resize(ref DB.Categories, DB.Categories.Length + 1);
+            category.Id = GenerateCategoryId();
+            DB.Categories[DB.Categories.Length - 1] = category;
+        }
+
+        private int GenerateCategoryId()
+        {
+            return DB.Categories.Length + 1;
         }
     }
 }
