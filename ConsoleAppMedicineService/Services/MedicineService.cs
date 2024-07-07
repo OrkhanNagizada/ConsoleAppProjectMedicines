@@ -21,6 +21,10 @@ public class MedicineService
         medicine.CreatedDate = DateTime.Now;
         DB.Medicines[DB.Medicines.Length - 1] = medicine;
     }
+    public Category[] GetAllCategory()
+    {
+        return DB.Categories;
+    }
 
     public Medicine[] GetAllMedicines()
     {
@@ -74,6 +78,6 @@ public class MedicineService
 
     private int GenerateMedicineId()
     {
-        return DB.Medicines.Length + 1;
+        return DB.Medicines.Length;
     }
 }

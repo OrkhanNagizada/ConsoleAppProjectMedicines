@@ -2,7 +2,7 @@
 using ConsoleAppMedicineService.Services;
 using ConsoleAppMedicineService;
 using ConsoleAppMedicineService.Models;
-
+MedicineService medicineService1 = new MedicineService();
 var userService = new UserService();
 var user1 = new User { Fullname = "Nagizade Orxan", Email = "Orxan93@gmail.com", Password = "Orxan123@" };
 var user2 = new User { Fullname = "Asimian Asiman", Email = "Asiman05@gmail.com", Password = "Asiman123@" };
@@ -26,6 +26,7 @@ while (true)
     Console.WriteLine("6. Remove  medicine");
     Console.WriteLine("7. Update  medicine");
     Console.WriteLine("8. Create  category");
+    Console.WriteLine("10.GetAllCategory");
     Console.WriteLine("9. Exit");
 
     Console.Write("\nEnter your choice: ");
@@ -185,7 +186,16 @@ while (true)
             };
             CategoryService categoryService = new CategoryService();
             categoryService.CreateCategory(category);
+           
             break;
+        case 10:
+            Category[] categories = medicineService1.GetAllCategory();
+            foreach (var item in categories)
+            {
+                Console.WriteLine(item.Name + ""+ item.Id);
+            }
+            break;
+
         default:
             break;
        

@@ -18,7 +18,7 @@ namespace ConsoleAppMedicineService.Services
 
         private int GenerateCategoryId()
         {
-            return DB.Categories.Length + 1;
+            return DB.Categories.Length;
         }
     }
 }
