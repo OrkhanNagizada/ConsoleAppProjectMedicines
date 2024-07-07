@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\services\\medicineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\services\\medicineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|c:\\users\\hp\\desktop\\consoleappmedicineservice\\consoleappmedicineservice\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572C4125-8C1A-4707-9BB4-0BC56C1168D8}|ConsoleAppMedicineService\\ConsoleAppMedicineService.csproj|solutionrelative:consoleappmedicineservice\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 87,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicineService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Services\\MedicineService.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\Services\\MedicineService.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Services\\MedicineService.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\Services\\MedicineService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:16:14.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Services\\UserService.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\Services\\UserService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:12:29.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:11:22.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\DB.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\DB.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\DB.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\DB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:09:47.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Medicine.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\Medicine.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Medicine.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\Medicine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:07:26.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Category.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\Category.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Category.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:06:54.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\User.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\User.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\User.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:06:26.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\BaseEntity.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:05:40.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Program.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\Program.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAD4v5wAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:04:59.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "ConsoleAppMedicineService\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\ConsoleAppMedicineService\\ConsoleAppMedicineService\\Services\\CategoryService.cs",
+              "RelativeToolTip": "ConsoleAppMedicineService\\Services\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAjwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:13:51.945Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\bin\Debug\net7.0\ConsoleAppMedicineService.exe
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\bin\Debug\net7.0\ConsoleAppMedicineService.deps.json
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\bin\Debug\net7.0\ConsoleAppMedicineService.runtimeconfig.json
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\bin\Debug\net7.0\ConsoleAppMedicineService.dll
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\bin\Debug\net7.0\ConsoleAppMedicineService.pdb
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\ConsoleAppMedicineService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\ConsoleAppMedicineService.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\ConsoleAppMedicineService.AssemblyInfo.cs
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\ConsoleAppMedicineService.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\ConsoleAppMedicineService.dll
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\refint\ConsoleAppMedicineService.dll
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\ConsoleAppMedicineService.pdb
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\ConsoleAppMedicineService.genruntimeconfig.cache
+C:\Users\hp\Desktop\ConsoleAppMedicineService\ConsoleAppMedicineService\obj\Debug\net7.0\ref\ConsoleAppMedicineService.dll
